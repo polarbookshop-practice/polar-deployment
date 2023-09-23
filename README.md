@@ -41,3 +41,7 @@ Register Edge Service as an OAuth2 Client in the PolarBookshop realm:
 -s secret=polar-keycloak-secret \
 -s 'redirectUris=["http://localhost:9000","http://localhost:9000/login/oauth2/code/*"]'
 ```
+Observability and monitoring
+```bash
+docker-compose up -d grafana
+```
